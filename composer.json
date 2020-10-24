@@ -1,0 +1,30 @@
+{
+    "name": "kurniajigunawan/faspay-omnipay",
+    "description": "Faspay Gateway for Omnipay payment",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "faspay",
+        "payment"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kurniaji Gunawan",
+            "email": "kurniaji.gunawan@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/kurniajigunawan/faspay-omnipay",
+    "require": {
+        "omnipay/common": "3.0-beta.1",
+        "php-http/guzzle6-adapter": "^1.1"
+    },
+    "require-dev": {
+        "omnipay/tests": "3.0-beta.1"
+    },
+    "autoload": {
+        "psr-4": { "Omnipay\\Midtrans\\" : "src/" }
+    }
+}
