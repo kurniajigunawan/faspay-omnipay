@@ -10,7 +10,7 @@ composer require kurniajigunawan/faspay-omnipay
 
 ## Feature
 On this package is full supported for debit transaction of Faspay Payment :
-- Faspay Channe;
+- Faspay Channel
 - Faspay Purchase
 - Faspay Complete Purchase (Notification)
 - Faspay Cancel
