@@ -20,7 +20,7 @@ We have a plan to support a credit card soon on next release.
 
 ## Example Code
 An example code for Faspay Channel :
-```
+```php
 $gateway = new DebitGateway();
 $gateway->setMerchantId('YOUR_MERCHANT_ID');
 $gateway->setMerchant('YOUR_MERCHANT');        
