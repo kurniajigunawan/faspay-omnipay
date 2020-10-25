@@ -8,6 +8,16 @@ Install via [Composer](https://getcomposer.org/) :
 composer require kurniajigunawan/faspay-omnipay
 ```
 
+## Feature
+On this package is full supported for debit transaction of Faspay Payment :
+- Faspay Channe;
+- Faspay Purchase
+- Faspay Complete Purchase (Notification)
+- Faspay Cancel
+- Faspay Inquiry
+
+We have a plan to support a credit card soon on next release.
+
 ## Example Code
 An example code for Faspay Channel :
 ```
@@ -23,16 +33,8 @@ $channel->setRequest('Daftar Payment Channel');
 $channel->setSignature();
 $channel->send();
 ```
+For general usage instructions, please see the main [Omnipay](https://https://github.com/thephpleague/omnipay) repository.
 
-## Feature
-On this package is full supported for debit transaction of Faspay Payment :
-- Faspay Channe;
-- Faspay Purchase
-- Faspay Complete Purchase (Notification)
-- Faspay Cancel
-- Faspay Inquiry
-
-We have a plan to support a credit card soon on next release.
 ## Support
 If you are having general issues with Omnipay, we suggest posting on [Stack Overflow](https://stackoverflow.com). Be sure to add the [omnipay tag](https://stackoverflow.com/questions/tagged/omnipay) so it can be easily found.
 
