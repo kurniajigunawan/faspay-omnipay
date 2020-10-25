@@ -3,7 +3,7 @@
  * Faspay Debit Item bag
  */
 
-namespace App\Adaptor\FaspayPayment\src;
+namespace Omnipay\FaspayPayment;
 
 use Omnipay\Common\ItemBag;
 use Omnipay\Common\ItemInterface;

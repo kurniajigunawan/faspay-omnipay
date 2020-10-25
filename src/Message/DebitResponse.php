@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Adaptor\FaspayPayment\src\Message;
+namespace Omnipay\FaspayPayment\Message;
 
 use Omnipay\Common\Message\AbstractResponse;
 use Omnipay\Common\Message\RequestInterface;

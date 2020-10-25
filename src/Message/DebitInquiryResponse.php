@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Adaptor\FaspayPayment\src\Message;
+namespace Omnipay\FaspayPayment\Message;
 
 /**
  * Inquiry Payment Status

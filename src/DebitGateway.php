@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Adaptor\FaspayPayment\src;
+namespace Omnipay\FaspayPayment;
 
 use Omnipay\Common\AbstractGateway;
 

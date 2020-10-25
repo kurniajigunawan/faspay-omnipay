@@ -25,6 +25,6 @@
         "omnipay/tests": "3.0-beta.1"
     },
     "autoload": {
-        "psr-4": { "Omnipay\\Midtrans\\" : "src/" }
+        "psr-4": { "Omnipay\\FaspayPayment\\" : "src/" }
     }
 }
