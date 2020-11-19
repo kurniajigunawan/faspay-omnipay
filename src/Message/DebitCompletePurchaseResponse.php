@@ -10,6 +10,13 @@ class DebitCompletePurchaseResponse extends DebitResponse
 {        
     public function getData()
     {                        
-        return $this->isSuccessfull() ? $this->data : $this->getMessage();
+        return $this->data;
     }    
+
+    public function getFailedData()
+    {
+        $this->data['response_code'] = "01";
+        $this->data['response_desc'] = "Gagal";
+        return $this->data;
+    }
 }
