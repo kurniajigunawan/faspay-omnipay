@@ -18,6 +18,11 @@ abstract class DebitRequest extends AbstractRequest
         return $this->getParameter('production_mode');
     }
 
+    public function setProductionMode($production_mode)
+    {
+        return $this->setParameter('production_mode', $production_mode);
+    }
+
     public function getMerchant()
     {
         return $this->getParameter('merchant');
